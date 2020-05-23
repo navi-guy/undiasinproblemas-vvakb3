@@ -1,0 +1,61 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+/* Add application styles & imports to this file! */
+h1,h2{
+  font-family: lato;
+}
+.img {
+    max-width: 100%;
+}
+
+.index-row1 {
+    background-image: none;
+}
+
+@media (min-width: 1200px) {
+    .index-row1 {
+        background-image: url(https://i.ibb.co/qD8PtT4/fondo-row1.png);
+        background-position: right top;
+        background-repeat: no-repeat;
+        background-size: auto 100%;
+    }
+}
+
+.index-row2 {
+    background-image: none;
+}
+
+@media (min-width: 1200px) {
+    .index-row2 {
+        background-image: url(https://i.ibb.co/vXTXRRJ/fondo-row2.png);
+        background-position: left top;
+        background-repeat: no-repeat;
+        background-size: 7em 100%;
+    }
+}
+
+.btn-outline-info:hover {
+    background-color: #43b1b4;
+    border-color: #43b1b4;
+}
+
+.color-pag {
+    color: #43b1b4;
+}
+
+.a {
+    color: #212529;
+}
+
+.a:hover {
+    color: black;
+}
+
+.color-pag:hover {
+    color: #43b1b4;
+}
+
+.lista-historias {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 1.5rem;
+}
